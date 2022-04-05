@@ -19,6 +19,7 @@ variables:
 
 
 stages:
+- stage: LoadTest
     - task: AzureLoadTest@1
       inputs:
         azureSubscription: $(serviceConnection)
