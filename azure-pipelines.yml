@@ -10,12 +10,12 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-  webAppName: '<Name of your webapp>'
+  webAppName: 'ServiceNow'
   serviceConnection: '<Name of your webARM Service connection>'
-  azureSubscriptionId: '<Azure subscriptionId>'
-  loadTestResource: '<Name of your load test resource>'
-  loadTestResourceGroup: '<Name of your load test resource group>'
-  location: 'EAST US'
+  azureSubscriptionId: 'c2737fa4-a93d-45ad-9dd7-afc03b66b548'
+  loadTestResource: 'ServiceNow_Azure-Load'
+  loadTestResourceGroup: '365d652b-7981-4aff-95f5-1ef85206d4a8'
+  location: 'North Europe'
 
 
 stages:
