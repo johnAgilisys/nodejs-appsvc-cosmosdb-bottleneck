@@ -20,6 +20,11 @@ variables:
 
 stages:
 - stage: LoadTest
+  displayName: 
+  jobs:
+  - job: MYJOBNAME
+    displayName: MYJOBDISPLAYNAME
+    steps:
     - task: AzureLoadTest@1
       inputs:
         azureSubscription: $(serviceConnection)
